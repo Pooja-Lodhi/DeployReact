@@ -1,0 +1,48 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+/* Styling for the unordered list inside the nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Styling for the list items */
+nav ul li {
+    display: inline;
+}
+
+/* Styling for the links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+/* Hover effect for the links */
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Adding some spacing and alignment to the content rendered by <Outlet> */
+div {
+    /* padding: 2rem; */
+    text-align: center;
+}
